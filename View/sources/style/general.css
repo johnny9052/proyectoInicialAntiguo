@@ -1,0 +1,181 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6/05/2014, 11:29:53 PM
+    Author     : Johnny Alexander
+*/
+
+body{
+    background-color:  #cccccc; 
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/********************************GENERAL ELEMENTS STYLES**********************/
+
+/**********INPUTS***************/
+input[type=text],input[type=password]{       
+    border: 1px solid;
+    font-size: 18px;
+    font-family: Arial, Verdana;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;        
+}
+
+textArea{       
+    border: 1px solid;
+    font-size: 18px;
+    font-family: Arial, Verdana;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;  
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+
+input[type=text]:focus,input[type=password]:focus,textArea:focus{           
+    outline:0px;
+}
+
+/**********BUTTONS***************/
+input[type=button]{   
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+    background-color:#6666ff;
+    -webkit-border-top-left-radius:5px;
+    -moz-border-radius-topleft:5px;
+    border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius-topright:5px;
+    border-top-right-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    -moz-border-radius-bottomright:5px;
+    border-bottom-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -moz-border-radius-bottomleft:5px;
+    border-bottom-left-radius:5px;
+    text-indent:0;
+    border:1px solid #337fed;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:30px;
+    line-height:30px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #1570cd;
+}
+
+input[type=button]:hover {    
+    background-color:#1e62d0;
+}
+input[type=button]:active {
+    position:relative;
+    top:1px;
+}
+
+
+.listButtons{
+    text-align: center;
+}
+
+/********************************VALIDATIONS STYLES****************************/
+
+/**********INPUTS***************/
+input:invalid,textArea:invalid {
+    border: 1px solid #ff3333;
+}
+
+input:valid,textArea:valid {
+    border: 1px solid #339900;
+}
+
+/**********LABELS***************/
+.msgError{
+    color: #ff3333;
+    text-align: center;    
+}
+
+
+/***********FORM CONTENT*********************/
+
+legend{
+    text-align: center;
+}
+
+
+
+/*****************FANCYBOX************************************/
+.window{
+    display: none;    
+}
+
+.window-sub{
+    overflow: hidden;    
+}
+
+
+.listInfo{
+    margin-top: 20px;    
+}
+
+.listInfo div{
+    text-align: center;   
+}
+
+.list{
+    width: 100%;    
+}
+
+.list tr{
+    background-color: #ececec;    
+    cursor: pointer;
+    border: 0px;    
+}
+
+.list th{
+    background-color: #6666ff;
+    color: #ffffff;    
+    border-radius: 4px 4px 0px 0px;
+    -moz-border-radius: 4px 4px 0px 0px;
+    -webkit-border-radius: 4px 4px 0px 0px;
+    -o-border-radius: 4px 4px 0px 0px;
+}
+
+.list tr:hover{
+    background-color: #9999ff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sel{
+    text-align: center;
+}
+
+.imgLoading{
+    width: 250px;
+    height: 25px;
+    text-align: center;    
+}
